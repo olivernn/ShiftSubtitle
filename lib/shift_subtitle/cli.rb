@@ -45,7 +45,7 @@ module ShiftSubtitle
       @start = options[:start].to_i
       
       @subtitles = SRTParser.new(@input_file_path).subtitles
-
+      
       output_file = File.new(@output_file_path, "w+")
 
       @subtitles.each do |subtitle|

@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rsrt}
-  s.version = "0.0.1"
+  s.name = %q{shift_subtitle}
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Oliver Nightingale"]
@@ -15,7 +15,7 @@ This application was created as part of the RubyLearning Blog competition here h
   s.executables = ["shift_subtitle"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
   s.files = ["bin/shift_subtitle", "History.txt", "lib/rsrt.rb", "lib/rsrt/srt_parser.rb", "lib/rsrt/subtitle.rb", "lib/rsrt/time_range.rb", "lib/shift_subtitle/cli.rb", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "rsrt.gemspec", "script/console", "script/destroy", "script/generate", "test/test_helper.rb", "test/test_subtitle.rb", "test/test_time_range.rb"]
-  s.homepage = %q{http://github.com/olivernn/rsrt}
+  s.homepage = %q{http://github.com/olivernn/shift_subtitle}
   s.post_install_message = %q{PostInstall.txt}
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]

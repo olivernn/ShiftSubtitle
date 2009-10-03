@@ -10,11 +10,17 @@ This application was created as part of the RubyLearning Blog competition here h
 
 == FEATURES/PROBLEMS:
 
-
+Subtitles can be shifted forward or backwards.
+You can start shifting from any subtitle.
 
 == SYNOPSIS:
 
 run ruby shift_subtitle -h for a full list of options
+	-p --operation : either add or sub to add time or subtract time from the subtitles
+	-t --time : the amount of time to add or subtract from each subtitle range, this should be in milliseconds using the , as a thousand separator, e.g. 1,500 is 1 and a half seconds
+	-s --start_from : optional, the id of the subtitle to start shifting from, defaults to 1
+	-i --input_file : the full path to the input .srt file, this must be in the correct format
+	-o --output_file : the full path to the output .srt file
 
 == INSTALL:
 

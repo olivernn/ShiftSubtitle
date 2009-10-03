@@ -1,3 +1,0 @@
-Run shift_subtitle -h to get help on using this application
-
-
